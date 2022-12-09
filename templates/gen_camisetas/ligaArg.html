@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../static/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <script defer src="../../static/js/index.js"></script>
+    <script defer src="../../static/js/cart.js"></script>
+    <script defer src="../../static/js/product.js"></script>
+    <link rel="icon" href="../../static/img/menu/logo.ico">
+    <title>Gen. Camisetas de Fútbol</title>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <div class="logo">
+                <a href="/index"><img src="../../static/img/menu/logo.png" alt="Logo"></a>
+            </div>
+
+            <div id="items" class="items">
+                <ul class="menu-col">
+                    <li>
+                        <a href="/qatar22">
+                            <img src="../../static/img/menu/qatar-logo.png" alt="Logo Qatar" class="logo-menu">
+                            <h1>QATAR 2022</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/lpf">
+                            <img src="../../static/img/menu/lpf-logo.png" alt="Logo Liga" class="logo-menu">
+                            <h1>LIGA ARGENTINA</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/premier">
+                            <img src="../../static/img/menu/premier-logo.png" alt="Logo Premier" class="logo-menu">
+                            <h1>PREMIER LEAGUE</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contacto">
+                            <img src="../../static/img/menu/contact-logo.png" alt="Logo Contacto" class="logo-menu">
+                            <h1>CONTACTO</h1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu_colapse">
+                <img src="../../static/img/svg/colapse-menu.svg" alt="" class="svg-icon">
+            </div>
+
+            <div class="cart_logo">
+                <a>
+                    <img src="" alt="" class="cart">
+                </a>
+            </div>
+
+            <div id="colapse-cart" class="colapse-cart">
+                <div class="tittle">
+                    <h2>Mis Productos</h2>
+                </div>
+                <div id="cart-items" class="cart-items">
+                </div>
+                <h2 class="total">Total: $0</h2>
+                <div class="button-cart">
+                    <a href="/cart" class="btn-cart">Comprar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="loader">
+            <div class="lds-dual-ring"></div>
+        </section>
+
+        <section class="section">
+            <div id="container" class="container">
+                <h1>LIGA PROFESIONAL ARGENTINA</h1>
+                <div id="grid-container" class="grid-container">
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/boca-logo.png" alt="escudo boca juniors" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/boca.png" alt="benedeto con camiseta de boca" class="produ">
+                            <div id="100" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Boca Juniors</h2>
+                            <a class="buy" data-id="100">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/river-logo.png" alt="escudo river plate" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/river.png" alt="" class="produ">
+                            <div id="101" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>River Plate</h2>
+                            <a class="buy" data-id="101">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/rac-logo.png" alt="escudo de racing club" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/rac.png" alt="jugadores de racing con camisetas"
+                                class="produ">
+                            <div id="102" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Racing</h2>
+                            <a class="buy" data-id="102">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/ind-logo.png" alt="escudo independiente" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/ind.jpg" alt="jugador de independiente con camiseta"
+                                class="produ">
+                            <div id="103" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Independiente</h2>
+                            <a class="buy" data-id="103">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/casla-logo.png" alt="ALEMANIA 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/casla.png" alt="Cerruti con camiseta de san lorenzo"
+                                class="produ">
+                            <div id="104" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>San Lorenzo</h2>
+                            <a class="buy" data-id="104">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/hur-logo.png" alt="Escudo del club Huracan" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/hur.png" alt="Jugadora de huracan con camiseta" class="produ">
+                            <div id="105" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Huracan</h2>
+                            <a class="buy" data-id="105">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/velez-logo.png" alt="Escudo del club velez" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/velez.jpg" alt="Imagen de pratto con camiseta de velez"
+                                class="produ">
+                            <div id="106" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Vélez</h2>
+                            <a class="buy" data-id="106">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/ligaArg/tall-logo.png" alt="Escudo de talleres de cordoba"
+                                    class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/ligaArg/tall.png"
+                                alt="mujeres en escalera con indumentaria de talleres" class="produ">
+                            <div id="107" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Talleres</h2>
+                            <a class="buy" data-id="107">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+                <h1>POSICIONES</h1>
+                <div class="posiciones">
+                    <div id="wg-api-football-standings" data-host="v3.football.api-sports.io"
+                        data-key="15274a4b46130f10cd3bbd9629c8df51" data-league="128" data-team="" data-season="2022"
+                        data-theme="" data-show-errors="false" data-show-logos="true" class="wg_loader">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../../static/img/svg/ig.svg" alt="Instagram logo" class="logo-footer">
+                        <img src="../../static/img/svg/fb.svg" alt="Instagram logo" class="logo-footer">
+                    </div>
+                    <div class="grid-item">
+                        <img src="../../static/img/menu/logo.png" alt="Logo" class="biglogo-footer">
+                    </div>
+                    <div class="grid-item">
+                        <img src="../../static/img/svg/tw.svg" alt="Twitter logo" class="logo-footer">
+                        <img src="../../static/img/svg/gmail.svg" alt="Gmail logo" class="logo-footer">
+                    </div>
+                </div>
+                <h1>© Copyright 2022. Todos los derechos reservados. </h1>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

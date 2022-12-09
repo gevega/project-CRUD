@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../static/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <script defer src="../../static/js/index.js"></script>
+    <script defer src="../../static/js/cart.js"></script>
+    <script defer src="../../static/js/product.js"></script>
+    <link rel="icon" href="../../static/img/menu/logo.ico">
+    <title>Gen. Camisetas de Fútbol</title>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <div class="logo">
+                <a href="/index"><img src="../../static/img/menu/logo.png" alt="Logo"></a>
+            </div>
+
+            <div id="items" class="items">
+                <ul class="menu-col">
+                    <li>
+                        <a href="/qatar22">
+                            <img src="../../static/img/menu/qatar-logo.png" alt="Logo Qatar" class="logo-menu">
+                            <h1>QATAR 2022</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/lpf">
+                            <img src="../../static/img/menu/lpf-logo.png" alt="Logo Liga" class="logo-menu">
+                            <h1>LIGA ARGENTINA</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/premier">
+                            <img src="../../static/img/menu/premier-logo.png" alt="Logo Premier" class="logo-menu">
+                            <h1>PREMIER LEAGUE</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contacto">
+                            <img src="../../static/img/menu/contact-logo.png" alt="Logo Contacto" class="logo-menu">
+                            <h1>CONTACTO</h1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu_colapse">
+                <img src="../../static/img/svg/colapse-menu.svg" alt="" class="svg-icon">
+            </div>
+
+            <div class="cart_logo">
+                <a>
+                    <img src="" alt="" class="cart">
+                </a>
+            </div>
+
+            <div id="colapse-cart" class="colapse-cart">
+                <div class="tittle">
+                    <h2>Mis Productos</h2>
+                </div>
+                <div id="cart-items" class="cart-items">
+                </div>
+                <h2 class="total">Total: $0</h2>
+                <div class="button-cart">
+                    <a href="/cart" class="btn-cart">Comprar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="loader">
+            <div class="lds-dual-ring"></div>
+        </section>
+
+        <section id="top">
+            <div id="banner">
+                <div class="banner">
+                </div>
+                <a class="more" href="#container">Ver Más</a>
+                <div id="banner_content"></div>
+                <div id="banner_tittle">
+                    <h1>EL SENTIMIENTO DE UN PAÍS</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="container" class="section">
+            <div class="container">
+                <h1>NOVEDADES ADIDAS</h1>
+                <div id="grid-container" class="grid-container">
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/ale-logo.png" alt="ALEMANIA 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/ale22.jpg" alt="ALEMANIA 2022" class="produ">
+                            <div id="000" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Alemania</h2>
+                            <a class="buy" data-id="000">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/esp-logo.png" alt="ESPAÑA 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/esp22.jpg" alt="ESPAÑA 2022" class="produ">
+                            <div id="001" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>España</h2>
+                            <a class="buy" data-id="001">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/arg-logo.png" alt="ARGENTINA 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/arg22.jpg" alt="ARGENTINA 2022" class="produ">
+                            <div id="002" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Argentina</h2>
+                            <a class="buy" data-id="002">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/bel-logo.png" alt="BELGICA 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/BEL22.jpg" alt="BELGICA 2022" class="produ">
+                            <div id="003" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Bélgica</h2>
+                            <a class="buy" data-id="003">COMPRAR</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h1>NOVEDADES NIKE</h1>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/eng-logo.png" alt="INGLATERRA 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/eng22.jpg" alt="INGLATERRA 2022" class="produ">
+                            <div id="004" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Inglaterra</h2>
+                            <a class="buy" data-id="004">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/fra-logo.png" alt="FRANCIA 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/fra22.jpg" alt="FRANCIA 2022" class="produ">
+                            <div id="005" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Francia</h2>
+                            <a class="buy" data-id="005">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/bra-logo.png" alt="BRASIL 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/bra22.jpg" alt="BRASIL 2022" class="produ">
+                            <div id="006" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Brasil</h2>
+                            <a class="buy" data-id="006">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="grid-img">
+                            <div class="grid-logo">
+                                <img src="../../static/img/logo/qatar/por-logo.png" alt="PORTUGAL 2022" class="logo">
+                                <a class="button">Ver Más</a>
+                            </div>
+                            <img src="../../static/img/product/qatar/por22.jpg" alt="PORTUGAL 2022" class="produ">
+                            <div id="007" class="noDisplay">
+                            </div>
+                            <div class="pre">
+                                <span>$</span>
+                                <span class="precio">24000</span>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>Portugal</h2>
+                            <a class="buy" data-id="007">COMPRAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="../../static/img/svg/ig.svg" alt="Instagram logo" class="logo-footer">
+                        <img src="../../static/img/svg/fb.svg" alt="Instagram logo" class="logo-footer">
+                    </div>
+                    <div class="grid-item">
+                        <img src="../../static/img/menu/logo.png" alt="Logo" class="biglogo-footer">
+                    </div>
+                    <div class="grid-item">
+                        <img src="../../static/img/svg/tw.svg" alt="Twitter logo" class="logo-footer">
+                        <img src="../../static/img/svg/gmail.svg" alt="Gmail logo" class="logo-footer">
+                    </div>
+                </div>
+                <h1>© Copyright 2022. Todos los derechos reservados. </h1>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
