@@ -1,0 +1,90 @@
+1670853842726	geckodriver	INFO	Listening on 127.0.0.1:59088
+1670853865972	geckodriver	INFO	Listening on 127.0.0.1:59105
+1670853898623	geckodriver	INFO	Listening on 127.0.0.1:59119
+1670853947717	geckodriver	INFO	Listening on 127.0.0.1:59142
+1670854164700	geckodriver	INFO	Listening on 127.0.0.1:59252
+1670867750811	geckodriver	INFO	Listening on 127.0.0.1:63156
+1670867753836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63157" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileiw0mBb"
+1670867754274	Marionette	INFO	Marionette enabled
+1670867754283	Marionette	INFO	Listening on port 63172
+Read port: 63172
+WebDriver BiDi listening on ws://127.0.0.1:63157
+1670867754478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileiw0mBb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63157/devtools/browser/ad2804ad-5d65-4b95-aa77-9a9be0e4a782
+JavaScript warning: http://code.jquery.com/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://localhost/dashboard/javascripts/all.js, line 5495: SyntaxError: expected expression, got '}'
+1670867779957	Marionette	INFO	Stopped listening on port 63172
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "63209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileP2HGPt"
+1670867766900	Marionette	INFO	Marionette enabled
+1670867766908	Marionette	INFO	Listening on port 63219
+Read port: 63219
+WebDriver BiDi listening on ws://127.0.0.1:63209
+1670867767076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileP2HGPt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63209/devtools/browser/9f671c31-8266-4c27-b373-553c2ccccf91
+JavaScript warning: http://code.jquery.com/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://localhost/dashboard/javascripts/all.js, line 5495: SyntaxError: expected expression, got '}'
+1670867783533	Marionette	INFO	Stopped listening on port 63219
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670867825141	geckodriver	INFO	Listening on 127.0.0.1:63333
+1670867828164	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63334" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileRiZtFD"
+1670867828844	Marionette	INFO	Marionette enabled
+1670867828855	Marionette	INFO	Listening on port 63344
+Read port: 63344
+WebDriver BiDi listening on ws://127.0.0.1:63334
+1670867829108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileRiZtFD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63334/devtools/browser/c55985b9-8984-42e0-81c5-d5378aad8b56
+1670867856755	geckodriver	INFO	Listening on 127.0.0.1:63379
+1670867859782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63380" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofile0PfOM4"
+1670867860282	Marionette	INFO	Marionette enabled
+1670867860292	Marionette	INFO	Listening on port 63391
+Read port: 63391
+WebDriver BiDi listening on ws://127.0.0.1:63380
+1670867860500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofile0PfOM4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63380/devtools/browser/80b62de2-15a1-4be7-887a-97fb2b688ec0
+1670868445625	Marionette	INFO	Stopped listening on port 63391
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "63411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileQdx1xw"
+1670867867629	Marionette	INFO	Marionette enabled
+1670867867636	Marionette	INFO	Listening on port 63427
+Read port: 63427
+WebDriver BiDi listening on ws://127.0.0.1:63411
+1670867867797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileQdx1xw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63411/devtools/browser/b8ee7662-0cd3-41d1-bb14-80c8d84e4e01
+1670867872952	Marionette	INFO	Stopped listening on port 63427
+1670879768157	geckodriver	INFO	Listening on 127.0.0.1:50190
+1670879771241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50191" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileCAQQae"
+1670879771977	Marionette	INFO	Marionette enabled
+1670879771984	Marionette	INFO	Listening on port 50201
+Read port: 50201
+WebDriver BiDi listening on ws://127.0.0.1:50191
+1670879772200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileCAQQae\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50191/devtools/browser/e52cc81c-88f1-4429-9602-c95184cd61e2
+1670879843886	Marionette	INFO	Stopped listening on port 50201
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50239" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileOJ9y2J"
+1670879783521	Marionette	INFO	Marionette enabled
+1670879783526	Marionette	INFO	Listening on port 50255
+Read port: 50255
+WebDriver BiDi listening on ws://127.0.0.1:50239
+1670879783677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofileOJ9y2J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50239/devtools/browser/e07d335b-6c4d-4df9-8c1b-99ee1d507435
+1670879844802	Marionette	INFO	Stopped listening on port 50255
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "50326" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofilecTHlBg"
+1670879841048	Marionette	INFO	Marionette enabled
+1670879841057	Marionette	INFO	Listening on port 50336
+Read port: 50336
+WebDriver BiDi listening on ws://127.0.0.1:50326
+1670879841251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SofiBell\\AppData\\Local\\Temp\\rust_mozprofilecTHlBg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50326/devtools/browser/764c7ea5-c8fe-4a38-96e9-c8a13c7c2827
+1670879845548	Marionette	INFO	Stopped listening on port 50336
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

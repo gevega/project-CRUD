@@ -2,7 +2,8 @@ const formulario = document.getElementById("form");
 const inputs = document.querySelectorAll(".form_grupo-input input, textarea")
 
 const expresiones = {
-	nombreApellido: /^[a-zA-ZÀ-ÿ\s]{1,30}$/,
+	nombre: /^[a-zA-ZÀ-ÿ\s]{1,30}$/,
+	apellido: /^[a-zA-ZÀ-ÿ\s]{1,30}$/,
 	mail: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{10,14}$/,
 	mensaje: /^.{5,500}$/
@@ -19,10 +20,10 @@ const campos = {
 const validarFormulario = (e) => {
 	switch (e.target.name) {
 		case "nombre":
-			validarCampo(expresiones.nombreApellido, e.target, "nombre");
+			//validarCampo(expresiones.nombre, e.target, "nombre");
 			break;
 		case "apellido":
-			validarCampo(expresiones.nombreApellido, e.target, "apellido");
+			validarCampo(expresiones.apellido, e.target, "apellido");
 			break;
 		case "mail":
 			validarCampo(expresiones.mail, e.target, "mail");
@@ -60,8 +61,7 @@ inputs.forEach((input) => {
 });
 
 formulario.addEventListener("submit", (e) => {
-	e.preventDefault();
-
+	//e.preventDefault();
 	if(campos.nombre && campos.apellido && campos.mail && campos.telefono && campos.mensaje){
 		formulario.reset();
 

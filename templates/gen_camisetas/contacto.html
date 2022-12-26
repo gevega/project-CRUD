@@ -84,7 +84,7 @@
         <section class="section">
             <div id="container" class="container">
                 <h1>CONTACTO</h1>
-                <form class="form" id="form" method="post" action="{{ url_for('form_contact') }}" enctype="multipart/form-data">
+                <form class="form" id="form" method="post" action="/form_contact" enctype="multipart/form-data">
                     <div id="grupo__nombre">
                         <label for="nombre" class="form_label">Nombre</label>
                         <div class="form_grupo-input">
@@ -133,7 +133,6 @@
                         <input type="submit" class="form_btn" value="enviar">
                         <p class="form_exito" id="form_exito"><b>¡Mensaje enviado correctamente!</b></p>
                     </div>
-                    <input type="submit" class="form_btn" value="enviar">
                 </form>
             </div>
             <div class="container">

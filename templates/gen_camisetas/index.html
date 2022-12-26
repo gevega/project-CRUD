@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +11,22 @@
     <script defer src="../../static/js/index.js"></script>
     <script defer src="../../static/js/cart.js"></script>
     <script defer src="../../static/js/product.js"></script>
+    <script defer src="../../static/js/welcome.js"></script>
     <link rel="icon" href="../../static/img/menu/logo.ico">
     <title>Gen. Camisetas de Fútbol</title>
 </head>
 
 <body>
     <header>
+        <div class="welcome">
+            <div class="wel-text">
+                <h2 data-=''></h2>
+                <input id="account" type="hidden" value="{{nomape[0][0]}}-{{nomape[0][1]}}">
+            </div>
+            <div class="wel-remove">
+                <img src="../../static/img/svg/remove.svg" class="remove">
+            </div>
+        </div>
         <nav id="menu">
             <div class="logo">
                 <a href="/index"><img src="../../static/img/menu/logo.png" alt="Logo"></a>
@@ -50,6 +59,12 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+
+            <div class="login">
+                <a href="/login">
+                    <img src="../../static/img/svg/login.svg" alt="" class="svg-icon login-svg" id='{{login}}''>
+                </a>
             </div>
 
             <div class="menu_colapse">
